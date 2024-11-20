@@ -1,0 +1,53 @@
+:root{
+
+    /* Fuentes Pagina */
+    --primary-font: "Poppins", sans-serif;
+    --secundary-font:'Work Sans', sans-serif;
+
+    /* colores pagina */
+    --hero-fontcolor-: #CBEAEE;
+    --hero-background: #BEA836;
+    --hero-background-dark: #1C1C1C;
+    --primary-color: #fff;
+    /* font-weight */
+
+    --thin:100;
+    --extraligth:200;
+    --ligth:300;
+    --regular:400;
+    --medium:500;
+    --semibold:600;
+    --bold:700;
+    --extrabold:800;
+    --back:900;
+
+    /* padding paginas */
+    --padding-content-mobile:   30px 30px 30px 30px;
+    --padding-content-tablet:   20px 100px 40px 100px ;
+    --padding-content-desktop:  20px 170px 40px 170px;
+    --padding-content-full-k:  5% 15% 5% 15%;
+
+    /* font-size paginas */
+
+    --h1-mobile: 3.3rem;
+    --h2-mobile: 2.5rem;
+    --h3-mobile: 2.2rem;
+    --h4-mobile: 1rem;
+    --p-mobile: 1rem;
+
+
+    --h1-tablet: 4rem;
+    --h2-tablet: 2.5rem;
+    --h3-tablet:1.4rem;
+    --h4-tablet: 0.9rem;
+    --p-tablet: 1rem;
+
+    --h1-desktop: 5rem;
+    --h2-desktop: 4rem;
+    --h3-desktop:2.7rem;
+    --h4-desktop: 0.9rem;
+    --p-desktop: 1.1rem;
+
+}
+
+

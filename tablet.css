@@ -1,0 +1,90 @@
+
+/* Tablet */
+/* styles por defecto */
+
+.pad-cont{
+    padding: var(--padding-content-tablet);
+}
+
+body p{
+    font-size: var(--p-tablet);
+}
+
+body h1{
+   font-size: var( --h1-tablet);
+}
+
+body h2{
+    font-size: var( --h2-tablet);
+ }
+
+ 
+body h3{
+    font-size: var( --h3-tablet);
+ }
+
+ body h4{
+    font-size: var( --h4-tablet);
+ }
+
+ /*--------------------------------------*/    
+    .hero p{
+        font-size: 2rem;
+    }
+
+    .mvo{
+        padding-bottom: 30px;
+    }
+
+    .mvo div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+    .div-izq{
+        width: 45%;
+        display: block;
+    }
+
+    .linea-exp{
+        width: 10%;
+    }
+
+    .container-exp .exp .cont-ex{
+        width: 45%;
+    } 
+
+    .exp:nth-child(2) .linea-exp{
+        order: 1;
+       
+    }
+    .exp:nth-child(2) .div-izq{
+        order: 2;
+    }
+    .exp:nth-child(2) .cont-ex{
+        text-align: end;
+    }
+
+
+    .exp:nth-child(4) .linea-exp{
+        order: 1;
+    }
+    .exp:nth-child(4) .div-izq{
+        order: 2;
+    }
+
+    .exp:nth-child(4) .cont-ex{
+        text-align: end;
+    }
+
+    .exp1 p{
+        width: 329.04px;
+    }
+
+    .proyectos{
+    
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }

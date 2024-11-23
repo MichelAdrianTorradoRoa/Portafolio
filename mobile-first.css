@@ -281,19 +281,6 @@ header ul:nth-child(1){
     border: 3px solid;
     border-image: linear-gradient(45deg, #6e02cc, #3e3eba,#2b09c3) 1;
 }
-/* @keyframes brillo {
-    0%{
-        opacity: 2%;    
-    }
-    50%{
-        opacity: 100%;    
-    }
-
-    /* 100%{
-        border-image: linear-gradient(45deg, #6e02cc, #3e3eba,#2b09c3) 1;  
-
-}
-    } */
 
 
 .linea-exp img{

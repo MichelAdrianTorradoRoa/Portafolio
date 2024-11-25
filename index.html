@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="tablet.css" media="(min-width:853px)"> 
     <link rel="stylesheet" href="desktop.css" media="(min-width:1140px)"> 
     <link rel="stylesheet" href="full-4k.css" media="(min-width:2000px)"> 
+    <link rel="shortcut icon" href="Logo.webp" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -19,181 +20,175 @@
     <div class="background-container pad-cont">
         <div class="container">
             <header>
-                <nav>
-                    <ul>
-                        <li class="img-nav"><img src="./public/dev.svg" loading="lazy" alt=""></li>
-                        <li id="menu-mbg" class="img-nav"><img src="./public/menu-hamburguesa.svg"  loading="lazy" alt=""></li>
+                <nav class="navbar">
+                    <div class="navbar-left">
+                        <img class="img-me" src="Logo.webp" loading="lazy" alt="Logo Personal">
+                        <button id="languageToggle" class="language-btn">EN</button>
+                    </div>
+                    <ul id="ul2" class="nav-links inactive">
+                        <li><a data-translate="" href="#mision-vision-valores">Acerca de mí</a></li>
+                        <li><a data-translate="" href="#certificaciones">Certificaciones</a></li>
+                        <li><a data-translate="" href="#proy">Proyectos</a></li>
+                        <li><a data-translate="" href="#contacto">Contáctame</a></li>
                     </ul>
-                    <ul id="ul2" class="inactive">
-                        <li><a data-translate href="#per1">Acerca de mi</a></li>
-                        <li><span id="linea-nav"></span></li>
-                        <li><a data-translate href="#container-exp">Experiencia</a></li>
-                        <li><a data-translate href="#proy">Proyectos</a></li>
-                        <li><a data-translate href="#contacto">Contáctame</a></li>
+                    <ul class="nav-icons">
+                        <li id="menu-mbg"><img src="" loading="lazy" alt="Menú"></li>
                     </ul>
-                    <div class="navbar-right">
-                        <button id="languageToggle">EN</button>
-                      </div>
                 </nav>
             </header>
             <section class="hero">
                 <article>
-                    <h1 data-translate>Hola!, soy</h1>
-                    <h2 id="text-hero">start</h2>
-                    <p data-translate>Un joven Apasionado por la programación y la calidad.</p>
-                    <p data-translate>Ingeniero en TIC - Backend Dev Java.</p>
-                </article>
-                <article>
-                    <div class="col-lg-6 col-md-12 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="photo-container">
-                            <img class="img-me" src="/Michel_Torrado.jpg"  loading="lazy" alt="">
-                        </div>
-                    </div>
+                    <h1 data-translate="">Hola, soy</h1>
+                    <h2 id="text-hero">Michel Adrian Torrad</h2>
+                    <p data-translate="">Desarrollador Junior Fullstack</p>
                 </article>
             </section>
+            <img src="Michel Torrado.png" alt="Banner" loading="lazy">
         </div>
-
     </div>
-    <div class="color-bottom-hero"> <p data-translate>Conoce más acerca de mi</p></div>
-   
-    <!-- Segunda seccion -->
-    <section class="perfil-profesional">
+    <section class="objetivos-profesional">
         <div class="perfil-container pad-cont">
-            <div class="per1" id="per1"> 
-                <h2 data-translate>Perfil Profesional</h2>
-                <p data-translate>Especializado en desarrollo Backend con Java, mi meta es llegar a ser referente en la industria, logrando altas capacidades de resolución de problemas e innovación, Me caracteriza una gran curiosidad y una rápida capacidad de aprendizaje.</p>
-                 <div class="perf-links">
-                    <span><a href="https://www.canva.com/design/DAGKCAMD4Hc/ctu942jzzQD8bgoXg6syRA/edit?utm_content=DAGKCAMD4Hc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">CV</a></span>
-                    <span><a href="" target="_blank">Linkedln</a></span>
+            <div class="per1" id="per1">
+                <h2 data-translate="">Objetivos Profesionales</h2>
+                <p data-translate="">
+                    Veo la tecnología como el puente para solucionar diversos problemas sociales. A través de mi formación y experiencia he logrado desarrollar diversas habilidades sociales, comunicativas, de pensamiento lógico y de orientación al logro que me permiten solucionar ágilmente los problemas que se me presentan.
+                </p>
+                <p data-translate="">
+                    Mi objetivo es aplicar mis conocimientos técnicos al diseño y desarrollo de sistemas que mejoren la eficiencia y la comodidad del usuario en diversos contextos sociales y laborales.
+                </p>
+                <div class="perf-links">
+                    <a href="https://www.canva.com/design/DAGVqCZr3dA/Os-UNkuAnImTct81FFu_gA/view?utm_content=DAGVqCZr3dA&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=editor" target="_blank" class="btn-link">Ver CV</a>
+                    <a href="https://www.linkedin.com/in/michel-adrian-torrado-roa-2633941a2/" target="_blank" class="btn-link">LinkedIn</a>
                 </div>
             </div>
-            <div class="per2">
-                <img src="./public/imagecompressor/3dpng-min.png"  loading="lazy" alt="">
-            </div>
         </div>
-        
-           
-           
-        </section>
-        <section class="mvo pad-cont">
-            <div>
-                <article>
-                    <h3 data-translate>Misión</h3>
-                <p data-translate>Asegurarse de que el software desarrollado cumple con las expectativas del cliente y proporciona un valor tangible, mejorando su experiencia y satisfacción.</p>
-                </article>
-                <img src="./public/imagecompressor/mision-min.png"  loading="lazy" alt="">
-            </div>
-            <div>
-                <article>
-                    <h3 data-translate>Visión</h3>
-                <p data-translate>Ser un agente clave en la transformación digital, ayudando a las organizaciones a adaptarse y prosperar en un mundo cada vez más digitalizado.</p>
-                </article>
-                <img src="./public/imagecompressor/vision-min.png"  loading="lazy" alt="">
-            </div>
-            <div>
-                <article>
-                    <h3 data-translate>Valores</h3>
-                <p data-translate>Desarrollar software de manera ética, respetando la privacidad y la seguridad de los usuarios, y asegurándose de que las soluciones tecnológicas no causen daño ni se utilicen para propósitos negativos.</p>
-                </article>
-                <img src="./public/imagecompressor/valores-min.png"  loading="lazy" alt="">
-            </div>
-        </section>
     </section>
 
-        <!-- Cuarta seccion -->
-    <div class="experiencia-container proy  pad-cont" id="proy">
+        
+<section id="mision-vision-valores" class="mvo-section pad-cont">
+            <h2 data-translate class="section-title">Misión, Visión y Valores</h2>
+            <div class="mvo-container">
+                <div class="mvo-item">
+                    <article>
+                        <h3 data-translate>Misión</h3>
+                        <p data-translate>Aplicar mis conocimientos técnicos y habilidades en tecnología para diseñar y desarrollar soluciones que mejoren la eficiencia y comodidad del usuario, contribuyendo a resolver problemas sociales y laborales de manera ágil y efectiva.</p>
+                    </article>
+                </div>
+                <div class="mvo-item">
+                    <article>
+                        <h3 data-translate>Visión</h3>
+                        <p data-translate>Ser un profesional reconocido por crear soluciones tecnológicas innovadoras que impacten positivamente en la vida de las personas y en el entorno laboral, utilizando la tecnología como una herramienta de cambio social.</p>
+                    </article>
+                </div>
+                <div class="mvo-item">
+                    <article>
+                        <h3 data-translate>Valores</h3>
+                        <p data-translate>Mis valores se centran en la adaptabilidad y en la innovación orientada al usuario, lo que me permite responder a las demandas cambiantes y priorizar siempre la experiencia de quienes utilizan mis soluciones. Valoro la orientación al logro y la responsabilidad social, abordando cada proyecto con el compromiso de generar un impacto positivo en la sociedad. La colaboración y comunicación efectiva son también fundamentales en mi forma de trabajar, ya que considero que el éxito se alcanza mejor en equipo y con una escucha activa hacia las necesidades del entorno.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+<br>
+<section id="certificaciones" class="cert-section">
+    <h2 data-translate class="section-title">Certificaciones</h2>
+    <div class="cert-container">
+        <div class="cert-card">
+            <h3 data-translate>Tecnico Desarrollador en Software</h3>
+            <p data-translate>Emitida por: Campuslands</p>
+            <p data-translate>Año: 2024</p>
+        </div>
+        <div class="cert-card">
+            <h3 data-translate>Certificacion IELTS B1</h3>
+            <p data-translate>Emitida por: Universidad Cambridge</p>
+            <p data-translate>Año: 2023</p>
+        </div>
+        <div class="cert-card">
+            <h3 data-translate>Bachiller Tecnico</h3>
+            <p data-translate>Emitida por: Colegio Sagrado Corazón de Jesus</p>
+            <p data-translate>Año: 2021</p>
+        </div>
+
+    </div>
+</section>
+<br>
+
+<section id="servicios" class="services-section">
+    <h2 data-translate class="section-title">Servicios</h2>
+    <div class="services-container">
+        <div class="service-card">
+            <h3 data-translate>Desarrollo de Aplicaciones Web</h3>
+            <p data-translate>Diseño y desarrollo de aplicaciones web intuitivas y eficientes, personalizadas según las necesidades del cliente.</p>
+        </div>
+        <div class="service-card">
+            <h3 data-translate>Consultoría Tecnológica</h3>
+            <p data-translate>Asesoría en tecnología para mejorar la eficiencia de procesos y resolver problemas específicos.</p>
+        </div>
+        <div class="service-card">
+            <h3 data-translate>Automatización de Procesos</h3>
+            <p data-translate>Implementación de sistemas automatizados para optimizar la productividad y reducir errores.</p>
+        </div>
+        <div class="service-card">
+            <h3 data-translate>Diseño de Sistemas de Datos</h3>
+            <p data-translate>Diseño de bases de datos seguras y eficientes para una gestión óptima de la información.</p>
+        </div>
+        <div class="service-card">
+            <h3 data-translate>Seguridad Informática Básica</h3>
+            <p data-translate>Protección de sistemas informáticos contra amenazas comunes y mejora de la seguridad de datos.</p>
+        </div>
+    </div>
+</section>
+
+
+<br>
+<section id="proy" class="projects pad-cont">
+    <div class="container">
         <h2 data-translate>Proyectos</h2>
-        <p data-translate>"Cada proyecto, ya sea personal o en el trabajo, es un reflejo de mi pasión y dedicación. Cada uno de ellos muestra cómo la tecnología puede hacer una verdadera diferencia en nuestras vidas."</p>
-        <section class="selector-proyectos">
-        </section>
-        
-        <section class="proyectos">
+        <div class="projects-grid">
 
-            <div class="proy-container">
-                <img src="./public/imagecompressor/latinohablantes-min_11_11zon.webp"  loading="lazy" alt="">
-                <div class="info-proy">
-                    <h4></h4>
-                    <p class="desc-proy">
-
-                    <div class="links-proy"><span>Github: Privado</span> <span>Demo: <a href="" target="_blank">Link</a></span></div>
-                    <div class="tecno"><span>Javascript</span> <span>Html</span> <span>Css</span><span>Express js - node</span></div>
-                </div>
+            <div class="project-card">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/a249096c7812deb8c3c2c907173f3774.jpg" alt="Imagen Proyecto 1" loading="lazy">
+                <h3 data-translate>Proyecto One Piece</h3>
+                <p data-translate>Desarrollo de una base de datos MySQL que modela el universo de One Piece, incluyendo información sobre los diversos personajes. La base de datos está diseñada para realizar consultas sobre estos elementos y explorar las relaciones entre ellos.</p>
+                <a data-translate href="https://github.com/MichelAdrianTorradoRoa/One-Piece" target="_blank" class="btn-project">Ver Proyecto</a>
             </div>
 
-            <div class="proy-container">
-                <img src="./public/imagecompressor/ferrteria-min_9_11zon.webp"  loading="lazy" alt="">
-                <div class="info-proy">
-                    <h4></h4>
-                    <p class="desc-proy">
-                    <div class="links-proy"><span>Github: <a href="" target="_blank">Link</a></span> <span>Demo: <a href="" target="_blank">Link</a></span></div>
-                    <div class="tecno"><span>Javascript</span> <span>Html</span><span>Bulma</span><span>Firebase</span></div>
-                </div>
-            </div>
 
-        
-            <div class="proy-container">
-                <img src="./public/imagecompressor/img-softdevcol-min_10_11zon.webp"  loading="lazy" alt="">
-                <div class="info-proy">
-                    <h4></h4>
-                    <p class="desc-proy">
-                    <div class="links-proy"><span>Github: <a href="" target="_blank">Link</a></span> <span>Demo: <a href="" target="_blank">Link</a></span></div>
-                    <div class="tecno"><span>Javascript</span> <span>Html</span> <span>Css</span><span>json-server</span></div>
-                </div>
+            <div class="project-card">
+                <img src="https://us.123rf.com/450wm/klyaksun/klyaksun2204/klyaksun220400280/184549303-la-gente-trabaja-en-el-jard%C3%ADn-del-pueblo-ilustraci%C3%B3n-plana-vectorial-del-paisaje-agr%C3%ADcola-con-campo.jpg?ver=6" alt="Imagen Proyecto 2" loading="lazy">
+                <h3 data-translate>Finca de produccion agricola</h3>
+                <p data-translate>Desarrollo de un sistema de gestión y manipulación de una base de datos en MySQL de una finca la cual se manejarán aspectos relacionados con los productos, clientes, terrenos, proveedores, empleados y demás campos de esta área.</p>
+                <a data-translate href="https://github.com/MichelAdrianTorradoRoa/Finca-de-produccion-agricola" target="_blank" class="btn-project">Ver Proyecto</a>
             </div>
-              
-            <div class="proy-container">
-                <img src="./public/imagecompressor/agencia-min_5_11zon.webp"  loading="lazy" alt="">
-                <div class="info-proy">
-                    <h4></h4>
-                    <p class="desc-proy">
-                    <div class="links-proy"><span>Github: <a href="" target="_blank">Link</a></span><span>Demo: CLI</div>
-                    <div class="tecno"><span>Java</span><span>Mysql</span><span>Arquitectura Hexagonal - Vertical slicing - Principios solid</span></div>
-                </div>
-            </div>
-            <div class="proy-container">
-                <img src="./public/imagecompressor/tictactoe-min_15_11zon.webp"  loading="lazy" alt="">
-                <div class="info-proy">
-                    <h4></h4>
-                    <p class="desc-proy">
-                    <div class="links-proy"><span>Github: <a href="" target="_blank">Link</a></span><span>Demo: CLI</div>
-                    <div class="tecno"><span>Phyton</span></div>
-                </div>
-            </div>
-
-            <div class="proy-container">
-                <img src="./public/imagecompressor/ahorcado-min_6_11zon.webp"  loading="lazy" alt="">
-                <div class="info-proy">
-                    <h4></h4>
-                    <p class="desc-proy">
-                       
-                    <div class="links-proy"><span>Github: <a href="" target="_blank">Link</a></span><span>Demo: CLI</div>
-                    <div class="tecno"><span>Java</span></div>
-                </div>
-            </div>
-            <div class="proy-container">
-                <img src="./public/imagecompressor/batallaPokemon-min_7_11zon.webp"  loading="lazy" alt="">
-                <div class="info-proy">
-                    <h4></h4>
-                    <p class="desc-proy"> </p>
-                    <div class="links-proy"><span>Github: <a href="h" target="_blank">Link</a></span> <span>Demo: <a href="" target="_blank">Link</a></span></div>
-                    <div class="tecno"><span>Javascript</span> <span>Html</span> <span>Css</span></div>
-                </div>
-            </div>  
-        </section>
+        </div>
     </div>
-    <div class="contacto pad-cont" id="contacto">
-        <section class="fm-cont">
+</section>
+    </div>
+    <section id="contacto" class="contact pad-cont">
+        <div class="container">
             <h2 data-translate>Contáctame</h2>
-            <p data-translate>Correo: </p>
-        </section>
-        <section class="img-contacto">
-            <img src="./public/dev.svg"  loading="lazy" alt="">
-        </section>
-    </div>
+            <p data-translate>Si tienes alguna pregunta, no dudes en contactarme. Estoy disponible para colaborar en proyectos, responder dudas o discutir nuevas oportunidades.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3 data-translate>Email</h3>
+                    <p><a href="mailto:micheltorrado12@gmail.com">micheltorrado12@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3 data-translate>Teléfono</h3>
+                    <p><a href="tel:+57 3163730475">+57 316 3730 475</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3 data-translate>Dirección</h3>
+                    <p>Campuslands, Floridablanca, Colombia</p>
+                </div>
+            </div>
 
-    <footer class="pad-cont" >
-          <p>Made by Michel Adrian Torrado Roa - ®All Rigth Reserved</p> 
-    </footer>
+            <footer class="pad-cont">
+                <p id="Derechos_de_autor" data-translate>Made by Michel Adrian Torrado Roa - ®All Rights Reserved</p>
+
+                <p data-translate><a href="https://christiancelis.netlify.app/" target="_blank">Página de Referencia</a></p>
+            </footer>
 
 
     

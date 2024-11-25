@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const textElement = document.getElementById("text-hero");
 
-const text = "Michel Adrian Torrado"
+const text = "Michel Adrian Torrado Roa "
 let index = 1;
 speed = 300 / 2;
 

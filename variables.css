@@ -5,10 +5,13 @@
     --secundary-font:'Work Sans', sans-serif;
 
     /* colores pagina */
-    --hero-fontcolor-: #CBEAEE;
-    --hero-background: #BEA836;
-    --hero-background-dark: #1C1C1C;
-    --primary-color: #fff;
+    --primary-color: #ffffff; 
+    --hero-font-color: #cbeae0; 
+    --hero-background: #004f4d; 
+    --hero-background-dark: #a1efed; 
+    --secondary-color: #66bfbf; 
+    --accent-color: #006f6a; 
+    
     /* font-weight */
 
     --thin:100;

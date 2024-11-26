@@ -15,7 +15,7 @@ body{
     font-size: 62.5%;
 }
 
-/* styles por defecto */
+
 nav {
     position: fixed;
     top: 0;
@@ -826,14 +826,14 @@ header ul:nth-child(1){
 footer {
     text-align: center;
     padding: 20px;
-    background-color: var(--dark-green); /* Usando color personalizado */
-    color: var(--white); /* Asegúrate de que el texto sea legible */
+    background-color: var(--dark-green); 
+    color: var(--white); 
     font-family: var(--primary-font);
-    margin-top: 30px; /* Separación del contenido superior */
+    margin-top: 30px; 
 }
 
 footer a {
-    color: var(--light-aqua); /* Color del enlace */
+    color: var(--light-aqua); 
     text-decoration: none;
 }
 #Derechos_de_autor{
@@ -841,7 +841,7 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline; /* Efecto de subrayado al pasar el mouse */
+    text-decoration: underline; 
 }
 
 
